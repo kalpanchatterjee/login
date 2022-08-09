@@ -27,9 +27,9 @@ function Cookie() {
         try {
             //const resp = await axios.get(`${apiUrl}/getcookie`,{ withCredentials: true });
             console.log(document.cookie);
-            console.log(Cookies.get('token'));
-           // console.log("http://localhost:"+id+"?token="+resp.data.token)
-           // window.location.replace("http://localhost:"+id+"/"+resp.data.token);
+            //console.log(Cookies.get('token'));
+           // console.log("http://localhost:"+id+"?token="+resp.data.token) https://client1-awipkz2oo-kalpanchatterjee.vercel.app
+            window.location.replace(id+"/"+document.cookie);
             //console.log(resp.data.token);
         } catch (err) {
             // Handle Error Here
