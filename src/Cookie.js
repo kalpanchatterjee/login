@@ -30,7 +30,7 @@ function Cookie() {
             //console.log(Cookies.get('token'));
            // console.log("http://localhost:"+id+"?token="+resp.data.token) https://client1-awipkz2oo-kalpanchatterjee.vercel.app
            alert(id+"/"+document.cookie);
-           window.location.replace(id+"/"+document.cookie);
+           window.location.replace("https://"+id+"/"+document.cookie);
             //console.log(resp.data.token);
         } catch (err) {
             // Handle Error Here
